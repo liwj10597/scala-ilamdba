@@ -1,4 +1,6 @@
-import org.apache.spark.{SparkContext,SparkConf}
+package com.jollychic.data
+
+import org.apache.spark.{SparkConf, SparkContext}
 
 object Main {
   def main(args: Array[String]): Unit = {
