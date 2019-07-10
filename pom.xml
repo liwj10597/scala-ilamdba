@@ -100,6 +100,12 @@
             <groupId>org.spark-project.hive</groupId>
             <artifactId>hive-exec</artifactId>
             <version>1.2.1.spark2</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.apache.spark</groupId>
+                    <artifactId>spark-core_2.10</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <dependency>
             <groupId>edu.stanford.nlp</groupId>
